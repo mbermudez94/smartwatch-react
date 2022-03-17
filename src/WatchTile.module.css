@@ -1,0 +1,25 @@
+.tile{
+    border-radius: 5px;
+    width: 20%;
+    max-width: 100px;
+    display: inline-flex;
+    margin-right: 15px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.watch{
+    width: 100%;
+}
+.selected{
+    border-radius: 5px;
+    width: 20%;
+    max-width: 100px;
+    display: inline-flex;
+    border: 1px solid #37475A;
+    box-shadow: 1px 1px 5px #37475A;
+    margin-right: 15px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

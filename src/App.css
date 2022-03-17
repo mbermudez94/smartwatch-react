@@ -1,38 +1,52 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding: 0px 10%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Right{
+  width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: left;
+}
+.Right h1{
+  font-size: 44px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.Right h3{
+  margin-bottom: 10px;
+}
+.Right p{
+  font-size: 17px;
+  margin: 0px;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+.Left{
+  display: flex;
+position: relative;
+  width: 50%;
+  margin-right: 3%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.buy-btn{
+  width: 100px;
+  background-color: rgb(33, 202, 166);
+  box-sizing: border-box;
+  border: 0px solid #ccc;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin-top: 15px;
 }

@@ -1,0 +1,46 @@
+img{
+    width: 500px;
+  }
+.main{
+    position: relative;
+    text-align: center;
+}
+.time{
+    color: white;
+    position:absolute;
+    font-size: 44px;
+    top: 49%;
+    left: 49%;
+    transform: translate(-50%, -50%)
+}
+.heart{
+    position:absolute;
+    top: 49%;
+    left: 49%;
+    transform: translate(-50%, -50%)
+}
+.heartIcon{
+    width: 50px;
+    animation: beat 1s infinite;
+}
+.heartRate{
+    margin:0%;
+    margin-top: 5px;
+    color: white;
+    font-size: 28px;
+}
+.noShow{
+    display: none;
+}
+
+@keyframes beat {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
