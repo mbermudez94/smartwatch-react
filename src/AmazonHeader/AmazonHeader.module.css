@@ -3,6 +3,7 @@
     width: 100%;
     height: 70px;
     background-color: #232F3E;
+    z-index: 1;
 }
 .navBar img{
     color: white;
