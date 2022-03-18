@@ -6,7 +6,7 @@ const Product = (props) =>{
 
     return(
         <div className={classes.main}>
-            <img src={props.img}></img>
+            <img src={props.img} alt="product preview"></img>
             <div className={showFeature === 'Time' ? classes.time : classes.noShow}>
                 {`${new Date().getHours()}:${new Date().getMinutes() > 9 ? new Date().getMinutes() : '0'+new Date().getMinutes()}`}
             </div>
